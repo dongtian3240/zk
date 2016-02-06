@@ -7,5 +7,16 @@
   <description>thrift zookeeper</description>
   <modules>
   	<module>thrift-balance</module>
+  	<module>thrift-zookeeper</module>
   </modules>
+  
+  <dependencies>
+ <dependency>
+	<groupId>org.apache.curator</groupId>
+	<artifactId>curator-framework</artifactId>
+	<version>2.6.0</version>
+</dependency>
+
+  
+  </dependencies>
 </project>
